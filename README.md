@@ -1,3 +1,5 @@
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
 # Reto SQL 30 Días
 
 Este repositorio contiene ejercicios para aprender SQL en 30 días, inspirado en el reto del canal **Zero Analyst** en YouTube.
