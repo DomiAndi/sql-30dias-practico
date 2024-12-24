@@ -83,3 +83,61 @@ CREATE TABLE Proveedores (
 );
 
 ```
+
+```sql
+
+-- Datos de ejemplo de productos
+
+INSERT INTO Productos (nombre, descripcion, precio, stock, id_proveedor) VALUES
+('Laptop', 'Laptop de 14 pulgadas con 8GB de RAM', 800.00, 10, 1),
+('Mouse', 'Mouse óptico inalámbrico', 25.50, 50, 2),
+('Teclado', 'Teclado mecánico retroiluminado', 45.00, 30, 3),
+('Monitor', 'Monitor LED de 24 pulgadas', 150.00, 15, 1),
+('Impresora', 'Impresora multifunción', 120.00, 20, 2),
+('Disco Duro', 'Disco duro externo de 1TB', 80.00, 25, 3),
+('Auriculares', 'Auriculares inalámbricos con cancelación de ruido', 60.00, 40, 1),
+('Cable HDMI', 'Cable HDMI de alta velocidad', 10.00, 100, 2),
+('Router', 'Router inalámbrico de doble banda', 70.00, 15, 1),
+('Webcam', 'Webcam Full HD con micrófono integrado', 50.00, 20, 2);
+
+-- Datos de clientes
+
+INSERT INTO Clientes (nombre, correo, telefono, direccion) VALUES
+('Juan Pérez', 'juan.perez@email.com', '1234567890', 'Calle Falsa 123'),
+('María López', 'maria.lopez@email.com', '0987654321', 'Av. Principal 456'),
+('Carlos Sánchez', 'carlos.sanchez@email.com', '1122334455', 'Calle Nueva 789'),
+('Lucía Fernández', 'lucia.fernandez@email.com', '6677889900', 'Pasaje Antiguo 101'),
+('Andrea Martínez', 'andrea.martinez@email.com', '3344556677', 'Boulevard Central 202');
+
+-- Datos de proveedores
+
+INSERT INTO Proveedores (nombre, contacto, telefono, direccion) VALUES
+('Proveedor A', 'Luis Ramírez', '111222333', 'Zona Industrial 1'),
+('Proveedor B', 'Ana Torres', '444555666', 'Zona Comercial 2'),
+('Proveedor C', 'Miguel Ortega', '777888999', 'Parque Empresarial 3'),
+('Proveedor D', 'Sofía Jiménez', '555666777', 'Sector Logístico 4'),
+('Proveedor E', 'Pedro Díaz', '888999000', 'Centro de Distribución 5');
+
+-- Datos de ventas
+
+INSERT INTO Ventas (id_cliente, total) VALUES (1, 845.00),
+(2, 295.00),
+(3, 120.00),
+(4, 150.00),
+(5, 200.00);
+
+-- Detalle de ventas
+
+INSERT INTO DetalleVentas (id_venta, id_producto, cantidad, precio_unitario, subtotal) VALUES
+(1, 1, 1, 800.00, 800.00),
+(1, 2, 1, 45.00, 45.00),
+(2, 3, 2, 45.00, 90.00),
+(2, 4, 1, 150.00, 150.00),
+(3, 5, 1, 120.00, 120.00),
+(4, 6, 2, 80.00, 160.00),
+(4, 7, 1, 60.00, 60.00),
+(5, 8, 5, 10.00, 50.00),
+(5, 9, 1, 70.00, 70.00),
+(5, 10, 2, 50.00, 100.00);
+
+```
