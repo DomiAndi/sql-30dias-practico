@@ -144,7 +144,18 @@ INSERT INTO DetalleVentas (id_venta, id_producto, cantidad, precio_unitario, sub
 
 ## Consultas Basicas
 
+### 1. Listar todos los productos
+
 ```sql
 
+SELECT * FROM Productos;
+
+```
+
+### 2. Buscar productos con stock menor a 20
+
+```sql
+
+SELECT * FROM Productos WHERE stock < 20;
 
 ```
