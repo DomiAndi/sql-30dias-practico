@@ -1,2 +1,13 @@
-# sql-30dias-practico
-🎯 Reto de 30 días para aprender y practicar SQL, inspirado en el canal de YouTube Zero Analyst. Incluye ejercicios prácticos, datasets y soluciones para mejorar tus habilidades en bases de datos paso a paso.
+# Reto SQL 30 Días
+
+Este repositorio contiene ejercicios para aprender SQL en 30 días, inspirado en el reto del canal **Zero Analyst** en YouTube.
+
+## Requisitos
+
+- **Gestor de bases de datos**: PostgreSQL o MySQL.
+- **IDE recomendado**: DBeaver.
+
+# Temas cubiertos
+- Día 1: Introducción a SQL
+- Día 2: SELECT y WHERE
+- Día 3: JOIN
