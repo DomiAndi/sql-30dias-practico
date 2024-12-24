@@ -141,3 +141,10 @@ INSERT INTO DetalleVentas (id_venta, id_producto, cantidad, precio_unitario, sub
 (5, 10, 2, 50.00, 100.00);
 
 ```
+
+## Consultas Basicas
+
+```sql
+
+
+```
